@@ -3,11 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Aberturas Vales</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <div class="container">
+        <h1>Calculadora de Ventanas</h1>
+        <div class="form-group">
+            <label for="medidas">Selecciona las medidas:</label>
+            <select id="medidas" onchange="actualizarPersiana()"></select>
+        </div>
+        <div class="checkbox-group">
+            <label><input type="checkbox" id="rejas"> Rejas</label><br>
+            <label><input type="checkbox" id="entero"> Entero</label><br>
+            <label><input type="checkbox" id="repartido"> Repartido</label><br>
+            <label><input type="checkbox" id="mosquitero"> Mosquitero</label><br>
+            <label><input type="checkbox" id="persiana"> Persiana</label>
+        </div>
+        <button onclick="calcularCosto()">Calcular Costo</button>
+        <div class="result" id="resultado">Costo total: $0</div>
+    </div>
 
-    <script src="./hello-world.js"></script>
+    <script src="./js/calculo.js"></script>
 </body>
 </html>

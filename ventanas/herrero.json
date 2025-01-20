@@ -1,0 +1,112 @@
+[
+    {
+        "medidas": {
+            "ancho": 60,
+            "alto": 40
+        },
+        "rejas": 17220,
+        "entero": 33940,
+        "repartido": 45570,
+        "mosquitero": 18100
+    },
+    {
+        "medidas": {
+            "ancho": 100,
+            "alto": 40
+        },
+        "rejas": 18470,
+        "entero": 44720,
+        "repartido": 60440,
+        "mosquitero": 20400
+    },
+    {
+        "medidas": {
+            "ancho": 120,
+            "alto": 40
+        },
+        "rejas": 19220,
+        "entero": 51190,
+        "repartido": 68460,
+        "mosquitero": 22380
+    },
+    {
+        "medidas": {
+            "ancho": 150,
+            "alto": 40
+        },
+        "rejas": 20200,
+        "entero": 60380,
+        "repartido": 83270,
+        "mosquitero": 23460
+    },
+    {
+        "medidas": {
+            "ancho": 180,
+            "alto": 40
+        },
+        "rejas": 21260,
+        "entero": 67370,
+        "repartido": 95790,
+        "mosquitero": 25950
+    },
+    {
+        "medidas": {
+            "ancho": 200,
+            "alto": 40
+        },
+        "rejas": 24120,
+        "entero": 69880,
+        "repartido": 106470,
+        "mosquitero": 29690
+    },
+    {
+        "medidas": {
+            "ancho": 100,
+            "alto": 60
+        },
+        "rejas": 19000,
+        "entero": 53080,
+        "repartido": 74130,
+        "mosquitero": 24540
+    },
+    {
+        "medidas": {
+            "ancho": 120,
+            "alto": 60
+        },
+        "rejas": 22740,
+        "entero": 59800,
+        "repartido": 83120,
+        "mosquitero": 26180
+    },
+    {
+        "medidas": {
+            "ancho": 150,
+            "alto": 60
+        },
+        "rejas": 28500,
+        "entero": 69980,
+        "repartido": 100070,
+        "mosquitero": 30460
+    },
+    {
+        "medidas": {
+            "ancho": 180,
+            "alto": 60
+        },
+        "rejas": 31070,
+        "entero": 77620,
+        "repartido": 112980,
+        "mosquitero": 33770
+    },
+    {
+        "medidas": {
+            "ancho": 200,
+            "alto": 60
+        },
+        "rejas": 34390,
+        "entero": 86760,
+        "repartido": 125840,
+        "mosquitero": 36620
+    }
+]
