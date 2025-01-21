@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Línea Modena</title>
+  <link rel="stylesheet" href="./css/style-modena.css">
+</head>
+<body>
+    <div class="container">
+        <h3><a href="./calculadora-herrero.html">Ir a calculadora herrero</a></h3>
+        <h1>Calculadora Línea Modena</h1>
+        <div class="form-group">
+            <label for="medidas">Selecciona las medidas:</label>
+            <select id="medidas"></select>
+        </div>
+        <div class="checkbox-group">
+            <label><input type="checkbox" id="v_entero"> Vidrio Entero</label><br>
+            <label><input type="checkbox" id="mm_3"> Vidrio 3MM</label><br>
+            <label><input type="checkbox" id="mm_4"> Vidrio 4MM</label><br>
+            <label><input type="checkbox" id="dvh"> DVH</label><br>
+            <label><input type="checkbox" id="mosquiteros"> Mosquiteros</label>
+        </div>
+        <button onclick="calcularCosto()">Calcular Costo</button>
+        <div class="result" id="resultado">Costo total: $0</div>
+        <button onclick="copiarResultado()">Copiar Resultado</button>
+    </div>
+
+    <script src="./js/calculo-modena.js"></script>
+</body>
+</html>

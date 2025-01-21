@@ -31,7 +31,7 @@ data.forEach(item => {
     option.textContent = `${item.medidas.ancho}x${item.medidas.alto}`;
     selectElement.appendChild(option);
 });
-
+ 
 function actualizarPersiana() {
     const medida = document.getElementById("medidas").value;
     const seleccion = data.find(item => `${item.medidas.ancho}x${item.medidas.alto}` === medida);
